@@ -1,17 +1,16 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/robot.svg" width="80" height="80" alt="Folio AI Logo" style="filter: drop-shadow(0 0 10px rgba(99,102,241,0.5));" />
+  <img src="docs/assets/hero_banner.png" width="100%" alt="Folio AI Hero Banner" />
   
-  <h1 align="center">Folio AI</h1>
+  <br/>
+  
+  <h1>✨ Folio AI —— Next-Gen Resume Intelligence</h1>
+  
   <p align="center">
-    <strong>The Next-Generation AI Resume Builder.</strong><br/>
-    <em>Craft perfect, data-driven resumes tailored for the modern applicant tracking system.</em>
+    <strong>Rebrand your career with AI-driven resume optimization and conversational coaching.</strong>
   </p>
 
   <p align="center">
-    <a href="#features">Features</a> •
-    <a href="#tech-stack">Tech Stack</a> •
-    <a href="#quick-start">Quick Start</a> •
-    <a href="#roadmap">Roadmap</a>
+    <a href="https://novariyaz.github.io/folio-ai/"><strong>🚀 View Live Demo</strong></a>
   </p>
 
   <p align="center">
@@ -22,65 +21,72 @@
   </p>
 </div>
 
-<br/>
+<hr />
 
-## ✨ Features
+## 🎭 The Problem
 
-- 🧠 **Folio Coach**: An intelligent Conversational AI that guides you in identifying key metrics, rewriting bullet points, and polishing grammar continuously.
-- 🎯 **ATS Optimization Engine**: Analyzes your resume against industry-standard ATS algorithms, providing a unified match score and actionable feedback.
-- 🎨 **Premium Aesthetic UI**: Custom glassmorphic design system using Tailwind CSS with beautiful interactive micro-transitions.
-- ⚡ **Real-Time Preview**: The WYSIWYG editor lets you see your resume changes instantly within a perfectly scaled document layout.
-- 🔒 **Privacy First**: Secure architecture. All user data is locally managed until you hit the cloud AI functions.
-- 📄 **1-Click Export**: Export a pristine, professional PDF directly from the UI, with no formatting loss.
+Struggling with generic templates and high desktop rejection rates? Most resumes never even make it to a human eye due to strict **Applicant Tracking Systems (ATS)**.
 
-<br/>
+## 🧠 The Solution: Folio AI
 
-## 🛠️ Tech Stack
+Folio AI is more than just a builder; it's a **Conversational Career Coach**. It combines predictive AI analysis with a world-class, minimal, glassmorphic design to put you in the top 1% of applicants.
 
-- **Frontend:** React 18, TypeScript, Tailwind CSS
-- **Build Tool:** Vite
-- **Icons:** Lucide React
-- **Hosting:** Vercel
+### 🌟 Key Features
 
-<br/>
+- 🛠️ **Folio Coach (AI Chat)**: A conversational assistant that analyzes your resume in real-time, helping you quantify achievements and identify hidden skills.
+- 🎯 **ATS Scorecard**: Get instant feedback on your resume’s effectiveness, with a clear breakdown of match scores and specific improvement points.
+- 🧪 **Metric-Driven Editing**: Not just "what you did," but "how well you did it." Folio AI prompts you to include the metrics that hiring managers crave.
+- 📂 **GitHub Import (BETA)**: Automatically sync and analyze your technical projects directly from your GitHub profile to highlight your development mastery.
+- 🎨 **Glassmorphism UI**: A premium, blur-heavy dark mode aesthetic that makes resume building feel like a state-of-the-art experience.
+- 📄 **High-Fidelity PDF Export**: Clean, minimalist export that maintains perfect formatting across all platforms.
+
+<br />
+
+## 🛠️ Tech Architecture
+
+- **Frontend**: [React 18](https://reactjs.org/) + [Vite](https://vitejs.dev/) for lightning-fast HMR and build performance.
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) using modern, CSS-first design tokens.
+- **Icons**: [Lucide React](https://lucide.dev/) for crisp, scalable vector icons.
+- **AI Integration**: [Google Gemini Pro / LLM Suite](https://ai.google.dev/) for resume parsing and conversational logic.
+- **Deployment**: [GitHub Pages](https://pages.github.com/) with automated Vite workflows.
+
+<br />
 
 ## 🚀 Quick Start
 
-1. **Clone the repository:**
+1. **Clone the Repo:**
    ```bash
-   git clone https://github.com/yourusername/folio-ai.git
-   cd folio-ai/frontend
+   git clone https://github.com/novariyaz/folio-ai.git
+   cd folio-ai
    ```
 
-2. **Install dependencies:**
+2. **Frontend Setup:**
    ```bash
+   cd frontend
    npm install
-   ```
-
-3. **Configure Environment Variables:**
-   Create a `.env` file in the root directory:
-   ```env
-   VITE_API_URL=http://localhost:5000
-   VITE_OPENAI_API_KEY=your_key_here
-   ```
-
-4. **Start the development server:**
-   ```bash
    npm run dev
    ```
 
-<br/>
+3. **Deploy (Personal Copy):**
+   Modify the `base` property in `vite.config.ts` to match your repository name, then run:
+   ```bash
+   npm run build
+   npx gh-pages -d dist
+   ```
 
-## 🗺️ Roadmap (v2 & Beyond)
+<br />
 
-- [ ] **Live API Integration:** Enable real API connections for Folio Coach and Scorecard features.
-- [ ] **Multiple Themes:** Introduce distinct resume templates (Creative, Banking, Executive).
-- [ ] **GitHub/LinkedIn Import:** Scrape developer portfolios or LinkedIn tags and auto-fill resume fields automatically.
-- [ ] **Mobile Editing:** A fully scalable and responsive editing mode for iPhone/Android.
+## 🗺️ v1 Roadmap
 
-<br/>
+- [x] **v1.0 Build**: Stabilized UI, premium branding, and independent scrolling.
+- [x] **GitHub Pages Integration**: Live preview live for project feedback.
+- [ ] **Live AI Pipelines**: Connecting real OpenAI/Anthropic keys for production coach logic.
+- [ ] **Multi-Template Engine**: Switch between Professional, Academic, and Modern styles seamlessly.
+
+<br />
 
 ---
-<div align="center">
-  <p>Built with ❤️ by the absolute masters of UI development.</p>
-</div>
+
+<p align="center">
+  Built with obsession by <a href="https://github.com/novariyaz">@novariyaz</a>. 💜
+</p>
